@@ -9,9 +9,11 @@ screen.colormode(255)  # can also use t.colormode(255)
 
 # Turtle setup
 tim = t.Turtle()
+
 tim.speed(10)  # turtle speed
 tim.pensize(5)
 
+tom = t.Turtle(shape="square")
 
 # Generate random colour
 def random_color():
